@@ -5,27 +5,27 @@ on:
       CPU:
         description: "分支"
         required: true
-        default: 'sm8650'
+        default: 'sm8750'
       FEIL:
         description: "配置文件"
         required: true
-        default: 'oneplus_ace3_pro_v'
+        default: 'JiuGeFaCai_oneplus_13_v'
       CPUD:
         description: "处理器代号"
         required: true
-        default: 'pineapple'
+        default: 'Pakala'
       ANDROID_VERSION:
         description: "内核安卓版本"
         required: true
-        default: 'android14'
+        default: 'android15'
       KERNEL_VERSION:
         description: "内核版本"
         required: true
-        default: '6.1'
+        default: '6.6.30'
       KERNEL_NAME:
         description: "修改内核名称"
         required: true
-        default: '-android14-11-o-g96906c366ea0'
+        default: '-android15-8-g013ec21bba94-abogki383916444-4k'
       KERNEL_VER:
         description: "自定义版本"
         required: true
@@ -41,7 +41,7 @@ on:
           - MKSU
           - RKSU
           - SKSU
-        default: Kernel
+        default: Next
       kernelsu_version:
         description: "选择 KSU 版本"
         required: true
